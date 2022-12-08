@@ -1,7 +1,7 @@
 import time
 from dash import Dash
 import plotly.express as px
-from jupyter_dash import JupyterDash
+#from jupyter_dash import JupyterDash
 from dash import dcc, html
 import plotly.express as px
 import pandas as pd
