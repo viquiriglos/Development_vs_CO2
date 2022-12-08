@@ -14,7 +14,8 @@ import matplotlib.pyplot as plt
 from plotly.subplots import make_subplots
 import string
 
-app = dash.Dash(external_stylesheets=[dbc.themes.SOLAR])
+app = Dash(__name__, external_stylesheets=[dbc.themes.SOLAR])
+server = app.server
 
 # Incorporate data into App
 anios=['1990', '1995', '2000', '2005', '2010', '2015', '2019']
