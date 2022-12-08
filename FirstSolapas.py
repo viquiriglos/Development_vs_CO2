@@ -416,4 +416,4 @@ def generate_graphs(n, option_slctd, option_year):
     return {"fig_1":fig1, "fig_2": fig2, "fig_4": fig4, "fig_5": fig5, "fig_6": fig6, "fig_7": fig7, "fig_8": figBar1}
 
 if __name__ == "__main__":
-    app.run_server(debug=True) #, port=8888)
+    app.run_server(debug=False) #, port=8888)
